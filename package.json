@@ -16,12 +16,15 @@
     "schema.graphql",
     "project.yaml"
   ],
-  "author": "sa",
+  "author": "Zevs",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@polkadot/api": "^5.7.1",
+    "@polkadot/api": "^6",
+    "@subql/cli": "latest",
     "@subql/types": "latest",
-    "typescript": "^4.1.3",
-    "@subql/cli": "latest"
+    "typescript": "^4.5.2"
+  },
+  "resolutions": {
+    "@polkadot/util-crypto": "7.8.1"
   }
 }
